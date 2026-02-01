@@ -10,7 +10,7 @@ let price = document.querySelectorAll(".price")
 	let totalPriceSum = 0;
 
 	for(let p of price){
-		totalPriceSum += +p.innerText;
+		totalPriceSum += p.innerText;
 	}
 
 
